@@ -185,7 +185,7 @@ class _HomePageState extends State<HomePage> {
         child: PieChart(
           dataMap: dataMap,
           chartType: ChartType.ring,
-          // animationDuration: Duration(milliseconds: 800),
+          animationDuration: Duration(milliseconds: 800),
         ));
   }
 }
